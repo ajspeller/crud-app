@@ -9,9 +9,9 @@ router.get('/', booksController.get_all);
 
 router.get('/:bookId', booksController.get_by_id);
 
-router.delete(':bookId', booksController.remove);
+router.delete('/:bookId', booksController.remove);
 
-router.put(':bookId', booksController.update);
+router.put('/:bookId', booksController.update);
 
 router.post('/', booksController.create);
 
