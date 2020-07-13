@@ -1,0 +1,7 @@
+const montoose = require('mongoose');
+
+const { Schema } = mongoose;
+
+const UserSchema = new Schema({});
+
+module.exports = mongoose.model('User', UserSchema);
